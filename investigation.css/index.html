@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>display</title>
+            <style>
+                li::first-letter {
+                    font-size: 200%;
+                    color :#8A2BE2;
+                }
+                p {
+                    letter-spacing: 5px;
+                    text-align : center;
+                }       
+                h1 {
+                    display:inline;
+                }
+                div {
+                    margin: auto;
+                    border : 9px solid red;
+                    width: 450px;
+                    padding: 90px;
+                } 
+                #m {
+                    visibility: hidden;
+                }
+
+            </style>
+    </head>
+  <body>  
+      <h1>The CSS Box Model, </h1>
+      <h1 id="m">The css selectors, </h1>
+      <h1>The css display. </h1>
+          <p>Explanation of the different parts:</p>
+	          <div>
+	              <li>Content - The content of the box, where text and images appear</li>
+                   <li>Padding - Clears an area around the content. The padding is transparent
+                   <li>Border - A border that goes around the padding and content</li>
+                   <li>Margin - Clears an area outside the border. The margin is transparent
+               </div>
+  </body>
+</html>
