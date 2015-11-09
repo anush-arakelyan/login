@@ -1,3 +1,8 @@
+body {
+    background-image: url("./image/images_copy.jpeg");
+    /*background-size: 100%;
+    moz-background-size: 100%;*/
+}
 li {
     display: inline;
     margin: 5px;
@@ -5,12 +10,12 @@ li {
 }
 .p {
     position: absolute;
-    right: 10%;
+    right: 18%;
     top: 10px;
 }
 .a {
     position: absolute;
-    right: 10%;
+    right: 18%;
     top: 60px;
     color: #E0E0E0;
 }
@@ -26,7 +31,8 @@ a {
 .img {
       position: absolute;
       top: 46px;
-      right: 10%;
+      right: 18%;
+      margin: 5px;
 }
 .ar {
      position: absolute;
@@ -51,7 +57,7 @@ a {
     background-color:  #fa8368;
     position: absolute;
     top: 110px;
-    width: 1300px;
+    width: 77%;
     height: 10%;
 }
 .c ul{
@@ -72,13 +78,12 @@ a {
 }
 .slide {
     position:absolute;
+    right:22%;
     top: 200px;
+    margin: 5px;
 }
 .b {
     width: 1250px;
     margin: auto;
     padding: 50px;
 }
-body {
-    background: #8f9f5c;
-}     
