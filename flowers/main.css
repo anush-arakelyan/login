@@ -3,14 +3,13 @@ body {
     /*background-size: 100%;
     moz-background-size: 100%;*/
 }
-
 .container {
-    width: 70%;
+    width: 100%;
     margin: auto;
     padding: 0%;
     background: white;
     border: solid,white;
-    height: 100%;
+    min-height: 100%;
 }
 
 .language {
@@ -24,7 +23,9 @@ body {
 
 .language ul {
     margin: 0;
-    float: right;
+}
+.language li {
+    margin: 5%;
 }
 
 .language li:hover {
@@ -46,7 +47,7 @@ body {
 }
 
 .social-network {
-    height: 7%;
+    height: 4%;
     width: 100%;
 }
 
@@ -58,12 +59,12 @@ body {
 .passive-menu {
     color: #E0E0E0;
     width: 100%;
-    height: 4%;
+    height: 10%;
 }
 
 .passive-menu ul {
     margin: 0;
-    float: right;
+    display: block;
 }
 
 .passive-menu li:hover {
@@ -73,7 +74,6 @@ body {
 
 a {
    text-decoration: none;
-   font-variant: small-caps;
    color: #E0E0E0;
 }
 
@@ -94,9 +94,11 @@ li {
 }
 
 .menu li {
+    display: block;
     margin: auto;
-    with: 1%;
+    with: 2%;
     padding: o%;
+    font-size: 20px;
 }
 
 .menu a {
@@ -115,46 +117,203 @@ li {
 }
 
 .slide {
-    display: inline;
-    float: left;
     padding: 2%;
-    width: 60%;
-}
-
-.slide img {
     width: 100%;
 }
 
+.slide img {
+    width: 95%;
+}
+
 .images {
-    display: inline;
-    width: 32%;
-    float: right;
-    padding: 2%;
+    width: 96%;
+    padding: 4%;
+    height: 41%;
 }
 
 .image-details {
-    padding-bottom: 8%;
-}
-
-.description {
-    width: 56%;
+    width: 50%;
     display: inline;
     float: right;
 }
 
+.description {
+    display: inline;
+}
+
 .description p {
-    font-size: 12px;
+    font-size: 16px;
     word-break: break-all;
     background: #ffeaea;
-    margin: 0%;
     padding: 0%;
+    width: 90%;
+    height: 13%;
 }
 
 .image {
     display: inline;
-    width: 40%;
 }
 
 .image img {
-    width: 40%;
+    width: 90%;
+}
+
+@media (min-width: 770px) and (max-width: 1700px){
+    .container {
+        width: 70%;
+        margin: auto;
+        padding: 0%;
+        background: white;
+        border: solid,white;
+        height: 100%;
+    }
+
+    .language {
+        border: solid #fa8368;
+        text-decoration: none;
+        font-variant: small-caps;
+        background-color: #fa8368;
+        margin: auto;
+        height: 4%;
+    }
+
+    .language ul {
+        margin: 0;
+        float: right;
+    }
+
+    .language li:hover {
+        text-decoration: underline;
+    }
+
+    .language a {
+        color: #fff;
+    }
+
+    .delivery-text {
+        width: 100%;
+        height: 4%;
+    }
+
+    .delivery-text p {
+        float: right;
+        margin: 0;
+    }
+
+    .social-network {
+        height: 4%;
+        width: 100%;
+    }
+
+    .social-network img {
+        float: right;
+        margin: 3px;
+    }
+
+    .passive-menu {
+        color: #E0E0E0;
+        width: 100%;
+        height: 10%;
+    }
+
+    .passive-menu ul {
+        margin: 0;
+        float: right;
+    }
+
+    .passive-menu li:hover {
+        background: #A8A8A8 ;
+        text-decoration: none;
+    }
+
+    a {
+       text-decoration: none;
+       font-variant: small-caps;
+       color: #E0E0E0;
+    }
+
+    li {
+        display: inline;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    .menu {
+        border: solid #fa8368;
+        background-color:  #fa8368;
+    }
+
+    .menu ul {
+        margin: 0%;
+        padding: 1%;
+    }
+
+    .menu li {
+        display: inline;
+        margin: auto;
+        with: 1%;
+        padding: o%;
+        font-size: 16px;
+    }
+
+    .menu a {
+        margin: 1%;
+        color:  #fff;
+        padding: 1%;
+    }
+
+    .menu a:hover {
+        color: black;
+    }
+
+    .content {
+        margin: auto;
+        width: 86%%;
+    }
+
+    .slide {
+        display: inline;
+        float: left;
+        padding: 2%;
+        width: 60%;
+    }
+
+    .slide img {
+        width: 100%;
+    }
+
+    .images {
+        display: inline;
+        width: 32%;
+        float: right;
+        padding: 2%;
+    }
+
+    .image-details {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .description {
+        width: 56%;
+        display: inline;
+        float: right;
+    }
+
+    .description p {
+        font-size: 12px;
+        word-break: break-all;
+        background: #ffeaea;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .image {
+        display: inline;
+        width: 40%;
+    }
+
+    .image img {
+        width: 40%;
+    }
 }
